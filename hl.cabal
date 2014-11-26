@@ -60,7 +60,7 @@ executable hl
                    , markdown
                    , monad-extras
                    , mtl
-                   , pandoc
+                   , pandoc >= 1.12.3
                    , pandoc-types
                    , spoon
                    , tagstream-conduit
