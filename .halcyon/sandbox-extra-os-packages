@@ -1,0 +1,3 @@
+linux-ubuntu-14:libicu52
+linux-(centos|fedora):libicu-devel
+linux-(debian|ubuntu):libicu-dev

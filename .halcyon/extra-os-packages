@@ -1,0 +1,5 @@
+linux-debian-6:libicu44
+linux-ubuntu-10:libicu42
+linux-ubuntu-14:libicu52
+linux-(centos|fedora):libicu
+linux-(debian-7|ubuntu-12):libicu48
