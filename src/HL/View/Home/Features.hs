@@ -15,7 +15,7 @@ features :: Html ()
 features =
   div_ [class_ "features"]
        (container_
-          (do h1_ "Features"
+          (do h1_ "INFORMACION"
               row_ (do span6_ [class_ "col-md-6"] statically
                        span6_ [class_ "col-md-6"] purefunc)
               row_ (do span6_ [class_ "col-md-6"] inference

@@ -50,7 +50,7 @@ header url =
         summation =
           span_ [class_ "summary"] "Programacón funcional"
         tag =
-          span_ [class_ "tag"] "Declarative, statically typed code."
+          span_ [class_ "tag"] "FACULTAD DE INGENIERIA"
         sample =
           div_ [class_ "code-sample"]
                (haskellPre codeSample)
@@ -72,7 +72,7 @@ try _ =
                     span6_ [class_ "col-md-6",id_ "guide"]
                            (return ()))))
   where repl =
-          do h2_ "Try it"
+          do h2_ "CONSOLA DE EJEMPLO HASKELL"
              div_ [id_ "console"]
                   (return ())
 
@@ -85,7 +85,7 @@ community url vids =
                 (do container_
                       [id_ "tagline"]
                       (row_ (span8_ [class_ "col-md-8"]
-                                    (do h1_ "An open source community effort for over 20 years"
+                                    (do h1_ ""
                                         p_ [class_ "learn-more"]
                                            (a_ [href_ (url CommunityR)] "Learn more"))))
                     container_
