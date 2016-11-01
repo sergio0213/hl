@@ -93,7 +93,7 @@ tryhaskell.makeController = function(){
         },
         animateScroll: true,
         promptHistory: true,
-        welcomeMessage: 'Type Haskell expressions in here.',
+        welcomeMessage: 'Escriba su código',
         continuedPromptLabel: '> '
     });
 };
@@ -215,7 +215,7 @@ tryhaskell.activeUsers = function(){
          ,"#718c00" // Green
          ,"#3e999f" // Aqua
          ,"#4271ae" // Blue
-         ,"#8959a8" // Purple
+         ,"#f5871f" // Purple
          // Solarized theme
          ,"#073642" // base02
          ,"#586e75" // base01

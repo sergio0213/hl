@@ -59,9 +59,7 @@ header url =
 -- TODO: should be rotatable and link to some article.
 codeSample :: Text
 codeSample =
-  "fibonacci 0 = 0\n\
-  \fibonacci 1 = 1\n\
-  \fibonacci n = fibonacci (n - 1) + fibonacci (n - 2)"
+  "2016 11 01"
 
 -- | Try Haskell section.
 try :: (Route App -> Text) -> Html ()

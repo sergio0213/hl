@@ -95,6 +95,7 @@ h2 {
   background-color:#352f44;
   border-radius:0;
   border:0;
+  display: none;
 }
 
 .navbar-brand {
@@ -237,7 +238,7 @@ h2 {
   display: block;
   font-size: 50px;
   font-family: Ubuntu, sans-serif;
-  line-height: 50px;
+  line-height: 100px;
   padding-left: 80px;
   font-weight: bold;
   background-position: left;
@@ -401,6 +402,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+      height: 350px;
 }
 
 .page-home .community h1 {

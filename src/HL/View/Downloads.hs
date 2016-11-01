@@ -12,7 +12,7 @@ import HL.View.Template
 -- | Downloads view.
 downloadsV :: FromLucid App
 downloadsV =
-  template [] "Downloads"
+  template [] "Descargar"
     (\url ->
        container_
          (row_
