@@ -25,42 +25,15 @@ features =
 
 purefunc :: Html ()
 purefunc =
-  do h2_ "Purely functional"
-     p_ "Every function in Haskell is a function in the mathematical sense (i.e., \"pure\"). \
-        \Even side-effecting IO operations are but a description of what to do, produced \
-        \by pure code. There are no statements or instructions, only expressions which \
-        \cannot mutate variables (local or global) nor access state like time or random \
-        \numbers."
+  do h2_ "Uniersidad"
+     p_ "El bosque"
      p_ [class_ "expand"] (a_ "Click to expand")
-     div_ [class_ "expandable"] $ do
-       p_ (do "The following function takes an integer and returns an integer. "
-              "By the type it cannot do any side-effects whatsoever, it cannot\
-              \ mutate any of its arguments.")
-       haskellPre "square :: Int -> Int\n\
-                  \square x = x * x"
-       p_ (do "The following string concatenation is okay:")
-       haskellPre "\"Hello: \" ++ \"World!\" "
-       p_ (do "The following string concatenation is a type error:")
-       rejectedHaskellPre "Type error" "\"Name: \" ++ getLine"
-       p_ (do "Because "
-              code_ "getLine"
-              " has type "
-              code_ "IO String"
-              " and not "
-              code_ "String"
-              ", like "
-              code_ "\"Name: \""
-              " is. So by the type system you cannot mix and \
-              \match purity with impurity.")
+
 
 statically :: Html ()
 statically =
-  do h2_ "Statically typed"
-     p_ "Every expression in Haskell has a type which is determined at compile time. \
-       \All the types composed together by function application have to match up. If \
-       \they don't, the program will be rejected by the compiler. Types become not \
-       \only a form of guarantee, but a language for expressing the construction \
-       \of programs."
+  do h2_ "Sergio Cabrera"
+     p_ "Ingeniero de sistemas"
      p_ [class_ "expand"] (a_ "Click to expand")
      div_ [class_ "expandable"] $ do
        p_ "All Haskell values have a type:"
@@ -79,7 +52,7 @@ statically =
 
 concurrent :: Html ()
 concurrent =
-  do h2_ "Concurrent"
+  do h2_ "Universidad el bosque"
      p_ "Haskell lends itself well to concurrent programming due to its explicit \
        \handling of effects. Its flagship compiler, GHC, comes with a high-\
        \performance parallel garbage collector and light-weight concurrency \
